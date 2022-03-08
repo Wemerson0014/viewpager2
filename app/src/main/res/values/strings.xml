@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">ViewPager2</string>
+    <string name="app_name">Bem vindo ao ViewPager2</string>
+
+    <!-- contents -->
+    <string name="first_title">Seja bem vindo ao App do ViewPager2</string>
+    <string name="second_title">Página 2 carregada</string>
+    <string name="third_title">Opa! Essa é a página 3</string>
+    <string name="description">Este tutorial mostra como funciona o ViewPager2</string>
+
+    <!-- activity_main -->
+    <string name="btn_prev">Anterior</string>
+    <string name="btn_next">Próximo</string>
 </resources>
