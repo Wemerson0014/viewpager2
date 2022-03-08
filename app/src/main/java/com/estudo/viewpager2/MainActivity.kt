@@ -2,6 +2,7 @@ package com.estudo.viewpager2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.estudo.viewpager2.fragment.WelcomeFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,5 +26,12 @@ class MainActivity : AppCompatActivity() {
                 getString(R.string.description)
             )
         )
+
+        val contentIndex = 0
+        val fragment = WelcomeFragment.newInstance(contents[contentIndex])
+
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.container, fragment)
+            .commit()
     }
 }
