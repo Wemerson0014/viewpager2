@@ -5,7 +5,9 @@
     <string name="first_title">Seja bem vindo ao App do ViewPager2</string>
     <string name="second_title">Página 2 carregada</string>
     <string name="third_title">Opa! Essa é a página 3</string>
-    <string name="description">Este tutorial mostra como funciona o ViewPager2</string>
+    <string name="first_description">Esse tutorial é para mostrar como podemos criar conteudos paginados dentro do android usando o viewPager. Aqui é uma descrição da nossa primeira Página.</string>
+    <string name="second_description">"Não é incrível! Agora estamos na página 2. Tudo graças ao ViewPager e o fragmento que compõe o conteúdo"</string>
+    <string name="third_description">"Acho que já percebeu o poder do ViewPager não é mesmo!?"</string>
 
     <!-- activity_main -->
     <string name="btn_prev">Anterior</string>
