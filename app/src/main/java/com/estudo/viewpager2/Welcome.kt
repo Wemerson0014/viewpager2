@@ -4,6 +4,6 @@ import androidx.annotation.DrawableRes
 
 data class Welcome(
     val title: String,
-    @DrawableRes val drawableResId : Int,
+    @DrawableRes val drawableResId: Int,
     val description: String
 )

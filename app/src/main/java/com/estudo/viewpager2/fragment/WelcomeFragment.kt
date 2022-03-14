@@ -11,7 +11,7 @@ import com.estudo.viewpager2.R
 import com.estudo.viewpager2.Welcome
 import com.google.android.material.textview.MaterialTextView
 
-class WelcomeFragment: Fragment() {
+class WelcomeFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -35,7 +35,7 @@ class WelcomeFragment: Fragment() {
 
     companion object {
 
-        fun newInstance(welcome: Welcome) : WelcomeFragment {
+        fun newInstance(welcome: Welcome): WelcomeFragment {
             val args = Bundle().apply {
                 putString(KEY_TITLE, welcome.title)
                 putString(KEY_DESC, welcome.description)
